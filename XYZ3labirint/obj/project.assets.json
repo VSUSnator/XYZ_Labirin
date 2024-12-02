@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\KuznecovVD\\source\\XYZ_Labirin\\XYZ3labirint\\XYZ3labirint\\XYZ3labirint.csproj",
+      "projectUniqueName": "C:\\Users\\KuznecovVD\\source\\XYZ_Labirin\\XYZ3labirint\\XYZ3labirint.csproj",
       "projectName": "XYZ3labirint",
-      "projectPath": "C:\\Users\\KuznecovVD\\source\\XYZ_Labirin\\XYZ3labirint\\XYZ3labirint\\XYZ3labirint.csproj",
+      "projectPath": "C:\\Users\\KuznecovVD\\source\\XYZ_Labirin\\XYZ3labirint\\XYZ3labirint.csproj",
       "packagesPath": "C:\\Users\\KuznecovVD\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\KuznecovVD\\source\\XYZ_Labirin\\XYZ3labirint\\XYZ3labirint\\obj\\",
+      "outputPath": "C:\\Users\\KuznecovVD\\source\\XYZ_Labirin\\XYZ3labirint\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\KuznecovVD\\AppData\\Roaming\\NuGet\\NuGet.Config",

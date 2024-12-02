@@ -25,5 +25,10 @@ namespace MazeTemplate
 
             return (X == position.X && Y == position.Y);
         }
+
+        public override int GetHashCode()
+        {
+            return X + Y;
+        }
     }
 }
