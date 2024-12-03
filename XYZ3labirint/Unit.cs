@@ -1,23 +1,23 @@
 ﻿using System.Diagnostics;
-using XYZ3labirint;
+
 
 namespace MazeTemplate
 {
     public abstract class Unit
     {
         public Vector2 Position { get; private set; }
-        private char _symbol;
-        private ConsoleRenderer _renderer;
+        private string _view;
+        private IRenderer _renderer;
 
-        public Unit(Vector2 startPosition, char symbol, ConsoleRenderer renderer)
+        public Unit(Vector2 startPosition, string view, IRenderer renderer)
         {
             Position = startPosition;
-            _symbol = symbol;
+            _view = view;
             _renderer = renderer;
 
             try
             {
-                _renderer.SetPixel(Position.X, Position.Y, _symbol);
+                _renderer.SetCell(Position.X, Position.Y, _view);
             }
             catch (Exception ex)
             {
@@ -54,9 +54,9 @@ namespace MazeTemplate
             if (_renderer == null)
                 throw new NullRendererException();
 
-            _renderer.SetPixel(Position.X, Position.Y, ' ');
+            _renderer.SetCell(Position.X, Position.Y, " ");
             Position = newPosition;
-            _renderer.SetPixel(Position.X, Position.Y, _symbol);
+            _renderer.SetCell(Position.X, Position.Y, _view);
             return true;
         }
 

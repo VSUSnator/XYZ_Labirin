@@ -4,7 +4,7 @@ public class Player : Unit
 {
 
 
-    public Player(Vector2 startPosition, ConsoleRenderer renderer, IMoveInput input) : base(startPosition, '@', renderer)
+    public Player(Vector2 startPosition, IRenderer renderer, IMoveInput input) : base(startPosition, "@", renderer)
     {
         input.MoveUp += () => TryMoveUp();
         input.MoveDown += () => TryMoveDown();

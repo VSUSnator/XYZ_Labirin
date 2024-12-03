@@ -4,8 +4,8 @@
     {
         private bool _obstacleDownDir = true;
 
-        public VerticalObstacle(Vector2 startPosition, char symbol, ConsoleRenderer renderer) :
-            base(startPosition, symbol, renderer)
+        public VerticalObstacle(Vector2 startPosition, string view,IRenderer renderer) :
+            base(startPosition, view, renderer)
         {
         }
 

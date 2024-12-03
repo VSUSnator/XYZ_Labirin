@@ -1,6 +1,5 @@
 ﻿using System.Diagnostics;
 using System.Numerics;
-using XYZ3labirint;
 using System.Linq;
 
 namespace MazeTemplate
@@ -29,29 +28,29 @@ namespace MazeTemplate
             _levelMaps["Level 2"] = new[,]
             {
                     { '#','#','#','#','#','#','#','#','#','#','#','#','#','#', },
-                    { '#',' ',' ',',',' ',' ',' ',' ',' ',' ',' ',' ',' ','#', },
-                    { '#',' ',' ',',',' ',' ',' ',' ','#',' ',' ',' ',' ','#', },
-                    { '#',' ',' ',',',' ',' ',' ',' ','#',' ',' ',' ',' ','#', },
-                    { '#',' ',' ',',',' ',' ',' ',' ',' ','#',' ','#','#','#', },
-                    { '#',' ',' ',',',' ',' ',' ',' ',' ',' ',' ',' ',' ','#', },
-                    { '#','#',' ',',',' ',' ',' ',' ','#',' ',' ','#',' ','#', },
-                    { '#',' ',' ',',',' ',' ',' ',' ',' ',' ','#',' ',' ','#', },
-                    { '#',' ',' ',',',' ',' ',' ',' ',' ',' ',' ',' ',' ','#', },
-                    { '#',' ',' ',',',' ',' ',' ',' ',' ',' ',' ',' ',' ','#', },
-                    { '#',' ','#',',','#',' ',' ',' ',' ',' ','#',' ',' ','#', },
-                    { '#',' ',' ',',','#',' ',' ',' ',' ',' ',' ',' ',' ','#', },
+                    { '#',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ','#', },
+                    { '#',' ',' ',' ',' ',' ',' ',' ','#',' ',' ',' ',' ','#', },
+                    { '#',' ',' ',' ',' ',' ',' ',' ','#',' ',' ',' ',' ','#', },
+                    { '#',' ',' ',' ',' ',' ',' ',' ',' ','#',' ','#','#','#', },
+                    { '#',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ','#', },
+                    { '#','#',' ',' ',' ',' ',' ',' ','#',' ',' ','#',' ','#', },
+                    { '#',' ',' ',' ',' ',' ',' ',' ',' ',' ','#',' ',' ','#', },
+                    { '#',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ','#', },
+                    { '#',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ','#', },
+                    { '#',' ','#',' ','#',' ',' ',' ',' ',' ','#',' ',' ','#', },
+                    { '#',' ',' ',' ','#',' ',' ',' ',' ',' ',' ',' ',' ','#', },
                     { '#','#','#','#','#','#','#','#','#','#','#','#','#','#', },
             };
-            ConsoleRenderer renderer = new ConsoleRenderer();
+            IRenderer renderer = new ConsoleRenderer();
             ConsoleInput input = new ConsoleInput();
             LevelsMenu levelsMenu = new LevelsMenu(_levelMaps, input, renderer);
 
             Player player = new Player(new Vector2(1, 1), renderer, input); //Null, input);
-            VerticalObstacle obstacle1 = new VerticalObstacle(new Vector2(4, 5), '!', renderer);
-            VerticalObstacle obstacle2 = new VerticalObstacle(new Vector2(8, 5), '!', renderer);
-            VerticalObstacle obstacle3 = new VerticalObstacle(new Vector2(2, 11), '!', renderer);
+            VerticalObstacle obstacle1 = new VerticalObstacle(new Vector2(4, 5), "!", renderer);
+            VerticalObstacle obstacle2 = new VerticalObstacle(new Vector2(8, 5), "!", renderer);
+            VerticalObstacle obstacle3 = new VerticalObstacle(new Vector2(2, 11), "!", renderer);
 
-            SmartEnemy enemy = new SmartEnemy(new Vector2(8, 12), '$', renderer, player);
+            SmartEnemy enemy = new SmartEnemy(new Vector2(8, 12), "$", renderer, player);
 
             levelsMenu.SetMenu();
 

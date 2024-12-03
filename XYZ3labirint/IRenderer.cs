@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace MazeTemplate
 {
-    internal class NullRendererException : Exception
+    public interface IRenderer
     {
+        public void SetCell(int x, int y, string val);
+
+        public void Render();
     }
 }

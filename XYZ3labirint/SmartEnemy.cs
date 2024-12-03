@@ -6,8 +6,8 @@
         private int[] dx = { -1, 0, 1, 0 };
         private int[] dy = { 0, 1, 0, -1 };
 
-        public SmartEnemy(Vector2 startPosition, char symbol, ConsoleRenderer renderer, Unit target) :
-            base(startPosition, symbol, renderer)
+        public SmartEnemy(Vector2 startPosition, string view, IRenderer renderer, Unit target) :
+            base(startPosition, view, renderer)
         {
             _target = target;
         }

@@ -5,15 +5,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace XYZ3labirint
+namespace MazeTemplate
 {
     internal class LevelsMenu
     {
         private Dictionary<string, char[,]> _levelMaps;
         private ConsoleInput _input;
-        private ConsoleRenderer _renderer;
+        private IRenderer _renderer;
 
-        public LevelsMenu(Dictionary<string, char[,]> levelMaps, ConsoleInput input, ConsoleRenderer renderer)
+        public LevelsMenu(Dictionary<string, char[,]> levelMaps, ConsoleInput input, IRenderer renderer)
         {
             _levelMaps = levelMaps;
             _input = input;
@@ -42,16 +42,16 @@ namespace XYZ3labirint
         {
             Console.Clear();
             GameData.SetMap(_levelMaps[level]);
-            SetMapPixels(_levelMaps[level], _renderer);
+            SetMapPixels(_levelMaps[level]);
         }
 
-        public void SetMapPixels(char[,] map, ConsoleRenderer renderer)
+        public void SetMapPixels(char[,] map)
         {
             for (int i = 0; i < map.GetLength(0); i++)
             {
                 for (int j = 0; j < map.GetLength(1); j++)
                 {
-                    renderer.SetPixel(i, j, map[i, j]);
+                    _renderer.SetCell(i, j, map[i, j].ToString());
                 }
             }
         }

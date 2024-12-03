@@ -1,6 +1,6 @@
 ﻿namespace MazeTemplate
 {
-    public class ConsoleRenderer
+    public class ConsoleRenderer : IRenderer
     {
         private char[,] _pixels;
         private char[,] _previousPixels;
@@ -16,7 +16,7 @@
             Console.CursorVisible = false;
         }
 
-        public void SetPixel(int w, int h, char val)
+        private void SetPixel(int w, int h, char val)
         {
             _pixels[w, h] = val;
         }
@@ -35,6 +35,11 @@
                     _previousPixels[w,h] = _pixels[w, h];
                 }
             }
+        }
+
+        public void SetCell(int x, int y, string val)
+        {
+            SetPixel(x, y, val[0]);
         }
     }
 }
