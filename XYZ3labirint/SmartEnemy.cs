@@ -88,7 +88,7 @@
 
         private bool IsValid(int x, int y)
         {
-            char[,] map = GameData.GetInstance().GetMap();
+            char[,] map = MapService.GetInstance().GetMap();
             bool containsX = x >= 0 && x < map.GetLength(0);
             bool containsY = y >= 0 && y < map.GetLength(1);
             bool isNotWall = map[x, y] != '#';

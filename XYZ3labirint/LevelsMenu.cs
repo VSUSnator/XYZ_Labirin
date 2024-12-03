@@ -7,15 +7,15 @@ using System.Threading.Tasks;
 
 namespace MazeTemplate
 {
-    internal class LevelsMenu
+    public class LevelsMenu
     {
-        private Dictionary<string, char[,]> _levelMaps;
+        private GameData _gameData;
         private ConsoleInput _input;
         private IRenderer _renderer;
 
-        public LevelsMenu(Dictionary<string, char[,]> levelMaps, ConsoleInput input, IRenderer renderer)
+        public LevelsMenu(GameData gameData, ConsoleInput input, IRenderer renderer)
         {
-            _levelMaps = levelMaps;
+            _gameData = gameData;
             _input = input;
             _renderer = renderer;
 
@@ -26,13 +26,13 @@ namespace MazeTemplate
         {
             Console.Clear();
             Console.WriteLine("Выберете уровень:");
-            foreach (var levelMap in _levelMaps)
+            foreach (var levelMap in _gameData.LevelMaps)
             {
                 Console.WriteLine(levelMap);
             }
             string input = Console.ReadLine();
 
-            if (_levelMaps.ContainsKey(input))
+            if (_gameData.LevelMaps.ContainsKey(input))
                 SetLevel(input);
             else
                 SetMenu();
@@ -41,8 +41,8 @@ namespace MazeTemplate
         public void SetLevel(string level)
         {
             Console.Clear();
-            GameData.SetMap(_levelMaps[level]);
-            SetMapPixels(_levelMaps[level]);
+            MapService.SetMap(_gameData.LevelMaps[level]);
+            SetMapPixels(_gameData.LevelMaps[level]);
         }
 
         public void SetMapPixels(char[,] map)

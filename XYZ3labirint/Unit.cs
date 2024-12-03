@@ -48,7 +48,7 @@ namespace MazeTemplate
 
         protected virtual bool TryChangePosition(Vector2 newPosition)
         {
-            if (GameData.GetInstance().GetMap()[newPosition.X, newPosition.Y] == '#')
+            if (MapService.GetInstance().GetMap()[newPosition.X, newPosition.Y] == '#')
                 return false;
 
             if (_renderer == null)
