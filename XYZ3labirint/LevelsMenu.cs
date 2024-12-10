@@ -12,12 +12,14 @@ namespace MazeTemplate
         private GameData _gameData;
         private ConsoleInput _input;
         private IRenderer _renderer;
+        private UnitFactory _unitFactory;
 
-        public LevelsMenu(GameData gameData, ConsoleInput input, IRenderer renderer)
+        public LevelsMenu(GameData gameData, ConsoleInput input, IRenderer renderer, UnitFactory unitFactory)
         {
             _gameData = gameData;
             _input = input;
             _renderer = renderer;
+            _unitFactory = unitFactory;
 
             _input.Esc += SetMenu;
         }
@@ -41,8 +43,10 @@ namespace MazeTemplate
         public void SetLevel(string level)
         {
             Console.Clear();
-            MapService.SetMap(_gameData.LevelMaps[level]);
+            LevelModel.SetMap(_gameData.LevelMaps[level]);
+            LevelModel.SetUnits(new Units());
             SetMapPixels(_gameData.LevelMaps[level]);
+            SetUnits(_gameData.LevelEnemies[level]);
         }
 
         public void SetMapPixels(char[,] map)
@@ -53,6 +57,14 @@ namespace MazeTemplate
                 {
                     _renderer.SetCell(i, j, map[i, j].ToString());
                 }
+            }
+        }
+
+        public void SetUnits(List<UnitConfig> units)
+        {
+            foreach (var unitConfig in units)
+            {
+                _unitFactory.CreateUnit(unitConfig);
             }
         }
     }

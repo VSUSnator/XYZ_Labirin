@@ -48,7 +48,7 @@ namespace MazeTemplate
 
         protected virtual bool TryChangePosition(Vector2 newPosition)
         {
-            if (MapService.GetInstance().GetMap()[newPosition.X, newPosition.Y] == '#')
+            if (LevelModel.GetInstance().GetMap()[newPosition.X, newPosition.Y] == '#')
                 return false;
 
             if (_renderer == null)

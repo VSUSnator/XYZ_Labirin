@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("XYZ3labirint")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a4c60d130c82a4732d7e3a6724f189dea5fd504d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+715c6ad3c209b6fe55608bb28b064decb0742ed2")]
 [assembly: System.Reflection.AssemblyProductAttribute("XYZ3labirint")]
 [assembly: System.Reflection.AssemblyTitleAttribute("XYZ3labirint")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

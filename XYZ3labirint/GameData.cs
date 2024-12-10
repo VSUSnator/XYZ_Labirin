@@ -70,7 +70,7 @@ namespace MazeTemplate
 
         public Dictionary<string, char[,]> LevelMaps => LevelMaps;
 
-        public Dictionary<string, char[,]> LevelEnemies => LevelEnemies;
+        public Dictionary<string, char[,]> LevelUnits => LevelUnits;
     }
 
     public enum UnitType

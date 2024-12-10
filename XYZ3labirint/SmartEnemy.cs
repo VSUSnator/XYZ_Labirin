@@ -6,14 +6,20 @@
         private int[] dx = { -1, 0, 1, 0 };
         private int[] dy = { 0, 1, 0, -1 };
 
-        public SmartEnemy(Vector2 startPosition, string view, IRenderer renderer, Unit target) :
+        public SmartEnemy(Vector2 startPosition, string view, IRenderer renderer) :
             base(startPosition, view, renderer)
         {
-            _target = target;
+            _target = LevelModel.Player;
         }
 
         public override void Update()
         {
+            if(_target != null)
+            {
+                _target = LevelModel.Player;
+                return;
+            }
+
             List<Node> path = FindPath();
 
             if (path == null) 
@@ -88,7 +94,7 @@
 
         private bool IsValid(int x, int y)
         {
-            char[,] map = MapService.GetInstance().GetMap();
+            char[,] map = LevelModel.GetInstance().GetMap();
             bool containsX = x >= 0 && x < map.GetLength(0);
             bool containsY = y >= 0 && y < map.GetLength(1);
             bool isNotWall = map[x, y] != '#';
