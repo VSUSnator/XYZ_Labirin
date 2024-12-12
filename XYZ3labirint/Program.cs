@@ -11,9 +11,12 @@ namespace MazeTemplate
             GameData data = new GameData();
             IRenderer renderer = new ConsoleRenderer();
             ConsoleInput input = new ConsoleInput();
-            LevelsMenu levelsMenu = new LevelsMenu(data, input, renderer);
+            UnitFactory unitFactory = new UnitFactory(renderer, input);
+            LevelsMenu levelsMenu = new LevelsMenu(data, input, renderer, unitFactory);
          
             levelsMenu.SetMenu();
+
+
 
             Units units = new Units();
 
@@ -31,11 +34,12 @@ namespace MazeTemplate
                 }
                 input.Update();
 
-                foreach (Unit unit in units)
-                {
-                    unit.Update();
+                if(LevelModel.Units != null)
+                    foreach (Unit unit in LevelModel.Units)
+                    {
+                        unit.Update();
                     
-                }
+                    }
 
                 renderer.Render();
 

@@ -26,7 +26,7 @@ namespace MazeTemplate
 
         public void SetMenu()
         {
-            Console.Clear();
+            _renderer.Clear();
             Console.WriteLine("Выберете уровень:");
             foreach (var levelMap in _gameData.LevelMaps)
             {

@@ -45,6 +45,7 @@ namespace MazeTemplate
 
         public static void SetPlayer(Player player)
         {
+            _player?.Dispose();
             _player = player;
         }
 

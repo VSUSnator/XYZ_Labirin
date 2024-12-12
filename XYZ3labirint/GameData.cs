@@ -68,9 +68,12 @@ namespace MazeTemplate
             },
         };
 
-        public Dictionary<string, char[,]> LevelMaps => LevelMaps;
+        public Dictionary<string, char[,]> LevelMaps => _levelMaps;
 
-        public Dictionary<string, char[,]> LevelUnits => LevelUnits;
+        public Dictionary<string, List<UnitConfig>> LevelUnits => LevelUnits;
+
+        public Dictionary<string, List<UnitConfig>> LevelEnemies => _levelEnemies;
+
     }
 
     public enum UnitType

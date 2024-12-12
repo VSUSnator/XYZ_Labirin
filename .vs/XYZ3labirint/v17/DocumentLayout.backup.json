@@ -3,36 +3,64 @@
   "WorkspaceRootPath": "C:\\Users\\KuznecovVD\\source\\XYZ_Labirin\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3A059014-0619-4065-A9EB-7F6D04518AAE}|XYZ3labirint\\XYZ3labirint.csproj|c:\\users\\kuznecovvd\\source\\xyz_labirin\\xyz3labirint\\units.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A059014-0619-4065-A9EB-7F6D04518AAE}|XYZ3labirint\\XYZ3labirint.csproj|solutionrelative:xyz3labirint\\units.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A059014-0619-4065-A9EB-7F6D04518AAE}|XYZ3labirint\\XYZ3labirint.csproj|c:\\users\\kuznecovvd\\source\\xyz_labirin\\xyz3labirint\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A059014-0619-4065-A9EB-7F6D04518AAE}|XYZ3labirint\\XYZ3labirint.csproj|solutionrelative:xyz3labirint\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3A059014-0619-4065-A9EB-7F6D04518AAE}|XYZ3labirint\\XYZ3labirint.csproj|c:\\users\\kuznecovvd\\source\\xyz_labirin\\xyz3labirint\\imoveinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A059014-0619-4065-A9EB-7F6D04518AAE}|XYZ3labirint\\XYZ3labirint.csproj|solutionrelative:xyz3labirint\\imoveinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3A059014-0619-4065-A9EB-7F6D04518AAE}|XYZ3labirint\\XYZ3labirint.csproj|c:\\users\\kuznecovvd\\source\\xyz_labirin\\xyz3labirint\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A059014-0619-4065-A9EB-7F6D04518AAE}|XYZ3labirint\\XYZ3labirint.csproj|solutionrelative:xyz3labirint\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A059014-0619-4065-A9EB-7F6D04518AAE}|XYZ3labirint\\XYZ3labirint.csproj|c:\\users\\kuznecovvd\\source\\xyz_labirin\\xyz3labirint\\gamedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A059014-0619-4065-A9EB-7F6D04518AAE}|XYZ3labirint\\XYZ3labirint.csproj|solutionrelative:xyz3labirint\\gamedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3A059014-0619-4065-A9EB-7F6D04518AAE}|XYZ3labirint\\XYZ3labirint.csproj|c:\\users\\kuznecovvd\\source\\xyz_labirin\\xyz3labirint\\unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A059014-0619-4065-A9EB-7F6D04518AAE}|XYZ3labirint\\XYZ3labirint.csproj|solutionrelative:xyz3labirint\\unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3A059014-0619-4065-A9EB-7F6D04518AAE}|XYZ3labirint\\XYZ3labirint.csproj|c:\\users\\kuznecovvd\\source\\xyz_labirin\\xyz3labirint\\unitconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A059014-0619-4065-A9EB-7F6D04518AAE}|XYZ3labirint\\XYZ3labirint.csproj|solutionrelative:xyz3labirint\\unitconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{3A059014-0619-4065-A9EB-7F6D04518AAE}|XYZ3labirint\\XYZ3labirint.csproj|c:\\users\\kuznecovvd\\source\\xyz_labirin\\xyz3labirint\\levelmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A059014-0619-4065-A9EB-7F6D04518AAE}|XYZ3labirint\\XYZ3labirint.csproj|solutionrelative:xyz3labirint\\levelmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A059014-0619-4065-A9EB-7F6D04518AAE}|XYZ3labirint\\XYZ3labirint.csproj|c:\\users\\kuznecovvd\\source\\xyz_labirin\\xyz3labirint\\irenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A059014-0619-4065-A9EB-7F6D04518AAE}|XYZ3labirint\\XYZ3labirint.csproj|solutionrelative:xyz3labirint\\irenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3A059014-0619-4065-A9EB-7F6D04518AAE}|XYZ3labirint\\XYZ3labirint.csproj|c:\\users\\kuznecovvd\\source\\xyz_labirin\\xyz3labirint\\levelsmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A059014-0619-4065-A9EB-7F6D04518AAE}|XYZ3labirint\\XYZ3labirint.csproj|solutionrelative:xyz3labirint\\levelsmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A059014-0619-4065-A9EB-7F6D04518AAE}|XYZ3labirint\\XYZ3labirint.csproj|c:\\users\\kuznecovvd\\source\\xyz_labirin\\xyz3labirint\\mapservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A059014-0619-4065-A9EB-7F6D04518AAE}|XYZ3labirint\\XYZ3labirint.csproj|solutionrelative:xyz3labirint\\mapservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3A059014-0619-4065-A9EB-7F6D04518AAE}|XYZ3labirint\\XYZ3labirint.csproj|c:\\users\\kuznecovvd\\source\\xyz_labirin\\xyz3labirint\\consolerenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A059014-0619-4065-A9EB-7F6D04518AAE}|XYZ3labirint\\XYZ3labirint.csproj|solutionrelative:xyz3labirint\\consolerenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A059014-0619-4065-A9EB-7F6D04518AAE}|XYZ3labirint\\XYZ3labirint.csproj|c:\\users\\kuznecovvd\\source\\xyz_labirin\\xyz3labirint\\verticalobstacle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A059014-0619-4065-A9EB-7F6D04518AAE}|XYZ3labirint\\XYZ3labirint.csproj|solutionrelative:xyz3labirint\\verticalobstacle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3A059014-0619-4065-A9EB-7F6D04518AAE}|XYZ3labirint\\XYZ3labirint.csproj|c:\\users\\kuznecovvd\\source\\xyz_labirin\\xyz3labirint\\gamedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A059014-0619-4065-A9EB-7F6D04518AAE}|XYZ3labirint\\XYZ3labirint.csproj|solutionrelative:xyz3labirint\\gamedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A059014-0619-4065-A9EB-7F6D04518AAE}|XYZ3labirint\\XYZ3labirint.csproj|c:\\users\\kuznecovvd\\source\\xyz_labirin\\xyz3labirint\\units.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A059014-0619-4065-A9EB-7F6D04518AAE}|XYZ3labirint\\XYZ3labirint.csproj|solutionrelative:xyz3labirint\\units.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A059014-0619-4065-A9EB-7F6D04518AAE}|XYZ3labirint\\XYZ3labirint.csproj|c:\\users\\kuznecovvd\\source\\xyz_labirin\\xyz3labirint\\smartenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A059014-0619-4065-A9EB-7F6D04518AAE}|XYZ3labirint\\XYZ3labirint.csproj|solutionrelative:xyz3labirint\\smartenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A059014-0619-4065-A9EB-7F6D04518AAE}|XYZ3labirint\\XYZ3labirint.csproj|c:\\users\\kuznecovvd\\source\\xyz_labirin\\xyz3labirint\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A059014-0619-4065-A9EB-7F6D04518AAE}|XYZ3labirint\\XYZ3labirint.csproj|solutionrelative:xyz3labirint\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A059014-0619-4065-A9EB-7F6D04518AAE}|XYZ3labirint\\XYZ3labirint.csproj|c:\\users\\kuznecovvd\\source\\xyz_labirin\\xyz3labirint\\unitfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A059014-0619-4065-A9EB-7F6D04518AAE}|XYZ3labirint\\XYZ3labirint.csproj|solutionrelative:xyz3labirint\\unitfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A059014-0619-4065-A9EB-7F6D04518AAE}|XYZ3labirint\\XYZ3labirint.csproj|c:\\users\\kuznecovvd\\source\\xyz_labirin\\xyz3labirint\\consoleinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A059014-0619-4065-A9EB-7F6D04518AAE}|XYZ3labirint\\XYZ3labirint.csproj|solutionrelative:xyz3labirint\\consoleinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A059014-0619-4065-A9EB-7F6D04518AAE}|XYZ3labirint\\XYZ3labirint.csproj|c:\\users\\kuznecovvd\\source\\xyz_labirin\\xyz3labirint\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A059014-0619-4065-A9EB-7F6D04518AAE}|XYZ3labirint\\XYZ3labirint.csproj|solutionrelative:xyz3labirint\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3A059014-0619-4065-A9EB-7F6D04518AAE}|XYZ3labirint\\XYZ3labirint.csproj|c:\\users\\kuznecovvd\\source\\xyz_labirin\\xyz3labirint\\nullrendererexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,36 +71,12 @@
       "RelativeMoniker": "D:0:0:{3A059014-0619-4065-A9EB-7F6D04518AAE}|XYZ3labirint\\XYZ3labirint.csproj|solutionrelative:xyz3labirint\\unitsenumerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A059014-0619-4065-A9EB-7F6D04518AAE}|XYZ3labirint\\XYZ3labirint.csproj|c:\\users\\kuznecovvd\\source\\xyz_labirin\\xyz3labirint\\smartenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A059014-0619-4065-A9EB-7F6D04518AAE}|XYZ3labirint\\XYZ3labirint.csproj|solutionrelative:xyz3labirint\\smartenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3A059014-0619-4065-A9EB-7F6D04518AAE}|XYZ3labirint\\XYZ3labirint.csproj|c:\\users\\kuznecovvd\\source\\xyz_labirin\\xyz3labirint\\verticalobstacle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A059014-0619-4065-A9EB-7F6D04518AAE}|XYZ3labirint\\XYZ3labirint.csproj|solutionrelative:xyz3labirint\\verticalobstacle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3A059014-0619-4065-A9EB-7F6D04518AAE}|XYZ3labirint\\XYZ3labirint.csproj|c:\\users\\kuznecovvd\\source\\xyz_labirin\\xyz3labirint\\vector2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A059014-0619-4065-A9EB-7F6D04518AAE}|XYZ3labirint\\XYZ3labirint.csproj|solutionrelative:xyz3labirint\\vector2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A059014-0619-4065-A9EB-7F6D04518AAE}|XYZ3labirint\\XYZ3labirint.csproj|c:\\users\\kuznecovvd\\source\\xyz_labirin\\xyz3labirint\\consoleinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A059014-0619-4065-A9EB-7F6D04518AAE}|XYZ3labirint\\XYZ3labirint.csproj|solutionrelative:xyz3labirint\\consoleinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A059014-0619-4065-A9EB-7F6D04518AAE}|XYZ3labirint\\XYZ3labirint.csproj|c:\\users\\kuznecovvd\\source\\xyz_labirin\\xyz3labirint\\unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A059014-0619-4065-A9EB-7F6D04518AAE}|XYZ3labirint\\XYZ3labirint.csproj|solutionrelative:xyz3labirint\\unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A059014-0619-4065-A9EB-7F6D04518AAE}|XYZ3labirint\\XYZ3labirint.csproj|c:\\users\\kuznecovvd\\source\\xyz_labirin\\xyz3labirint\\irenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A059014-0619-4065-A9EB-7F6D04518AAE}|XYZ3labirint\\XYZ3labirint.csproj|solutionrelative:xyz3labirint\\irenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A059014-0619-4065-A9EB-7F6D04518AAE}|XYZ3labirint\\XYZ3labirint.csproj|c:\\users\\kuznecovvd\\source\\xyz_labirin\\xyz3labirint\\imoveinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A059014-0619-4065-A9EB-7F6D04518AAE}|XYZ3labirint\\XYZ3labirint.csproj|solutionrelative:xyz3labirint\\imoveinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A059014-0619-4065-A9EB-7F6D04518AAE}|XYZ3labirint\\XYZ3labirint.csproj|c:\\users\\kuznecovvd\\source\\xyz_labirin\\xyz3labirint\\consolerenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A059014-0619-4065-A9EB-7F6D04518AAE}|XYZ3labirint\\XYZ3labirint.csproj|solutionrelative:xyz3labirint\\consolerenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A059014-0619-4065-A9EB-7F6D04518AAE}|XYZ3labirint\\XYZ3labirint.csproj|c:\\users\\kuznecovvd\\source\\xyz_labirin\\xyz3labirint\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A059014-0619-4065-A9EB-7F6D04518AAE}|XYZ3labirint\\XYZ3labirint.csproj|solutionrelative:xyz3labirint\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -82,84 +86,101 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 12,
+              "Title": "UnitFactory.cs",
+              "DocumentMoniker": "C:\\Users\\KuznecovVD\\source\\XYZ_Labirin\\XYZ3labirint\\UnitFactory.cs",
+              "RelativeDocumentMoniker": "XYZ3labirint\\UnitFactory.cs",
+              "ToolTip": "C:\\Users\\KuznecovVD\\source\\XYZ_Labirin\\XYZ3labirint\\UnitFactory.cs",
+              "RelativeToolTip": "XYZ3labirint\\UnitFactory.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBMAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T07:24:25.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Player.cs",
               "DocumentMoniker": "C:\\Users\\KuznecovVD\\source\\XYZ_Labirin\\XYZ3labirint\\Player.cs",
               "RelativeDocumentMoniker": "XYZ3labirint\\Player.cs",
               "ToolTip": "C:\\Users\\KuznecovVD\\source\\XYZ_Labirin\\XYZ3labirint\\Player.cs",
               "RelativeToolTip": "XYZ3labirint\\Player.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwB4AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T01:21:46.52Z"
+              "WhenOpened": "2024-11-29T01:21:46.52Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "UnitConfig.cs",
               "DocumentMoniker": "C:\\Users\\KuznecovVD\\source\\XYZ_Labirin\\XYZ3labirint\\UnitConfig.cs",
               "RelativeDocumentMoniker": "XYZ3labirint\\UnitConfig.cs",
               "ToolTip": "C:\\Users\\KuznecovVD\\source\\XYZ_Labirin\\XYZ3labirint\\UnitConfig.cs",
               "RelativeToolTip": "XYZ3labirint\\UnitConfig.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T05:48:27.459Z"
+              "WhenOpened": "2024-12-03T05:48:27.459Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "GameData.cs",
               "DocumentMoniker": "C:\\Users\\KuznecovVD\\source\\XYZ_Labirin\\XYZ3labirint\\GameData.cs",
               "RelativeDocumentMoniker": "XYZ3labirint\\GameData.cs",
               "ToolTip": "C:\\Users\\KuznecovVD\\source\\XYZ_Labirin\\XYZ3labirint\\GameData.cs",
               "RelativeToolTip": "XYZ3labirint\\GameData.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAQwEMAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAADoAAAAAAAAAAAAwwD0AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T05:24:20.298Z"
+              "WhenOpened": "2024-12-03T05:24:20.298Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 11,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\KuznecovVD\\source\\XYZ_Labirin\\XYZ3labirint\\Program.cs",
               "RelativeDocumentMoniker": "XYZ3labirint\\Program.cs",
               "ToolTip": "C:\\Users\\KuznecovVD\\source\\XYZ_Labirin\\XYZ3labirint\\Program.cs",
               "RelativeToolTip": "XYZ3labirint\\Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACUAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-03T02:35:49.987Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 5,
               "Title": "IRenderer.cs",
               "DocumentMoniker": "C:\\Users\\KuznecovVD\\source\\XYZ_Labirin\\XYZ3labirint\\IRenderer.cs",
               "RelativeDocumentMoniker": "XYZ3labirint\\IRenderer.cs",
               "ToolTip": "C:\\Users\\KuznecovVD\\source\\XYZ_Labirin\\XYZ3labirint\\IRenderer.cs",
               "RelativeToolTip": "XYZ3labirint\\IRenderer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T02:26:06.64Z"
+              "WhenOpened": "2024-12-03T02:26:06.64Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 2,
               "Title": "Unit.cs",
               "DocumentMoniker": "C:\\Users\\KuznecovVD\\source\\XYZ_Labirin\\XYZ3labirint\\Unit.cs",
               "RelativeDocumentMoniker": "XYZ3labirint\\Unit.cs",
               "ToolTip": "C:\\Users\\KuznecovVD\\source\\XYZ_Labirin\\XYZ3labirint\\Unit.cs",
               "RelativeToolTip": "XYZ3labirint\\Unit.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T01:21:48.876Z"
+              "WhenOpened": "2024-11-29T01:21:48.876Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 17,
               "Title": "VerticalObstacle.cs",
               "DocumentMoniker": "C:\\Users\\KuznecovVD\\source\\XYZ_Labirin\\XYZ3labirint\\VerticalObstacle.cs",
               "RelativeDocumentMoniker": "XYZ3labirint\\VerticalObstacle.cs",
@@ -171,7 +192,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 16,
               "Title": "UnitsEnumerator.cs",
               "DocumentMoniker": "C:\\Users\\KuznecovVD\\source\\XYZ_Labirin\\XYZ3labirint\\UnitsEnumerator.cs",
               "RelativeDocumentMoniker": "XYZ3labirint\\UnitsEnumerator.cs",
@@ -183,7 +204,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 9,
               "Title": "Units.cs",
               "DocumentMoniker": "C:\\Users\\KuznecovVD\\source\\XYZ_Labirin\\XYZ3labirint\\Units.cs",
               "RelativeDocumentMoniker": "XYZ3labirint\\Units.cs",
@@ -202,13 +223,14 @@
               "RelativeDocumentMoniker": "XYZ3labirint\\SmartEnemy.cs",
               "ToolTip": "C:\\Users\\KuznecovVD\\source\\XYZ_Labirin\\XYZ3labirint\\SmartEnemy.cs",
               "RelativeToolTip": "XYZ3labirint\\SmartEnemy.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwCMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T01:21:48.203Z"
+              "WhenOpened": "2024-11-29T01:21:48.203Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 15,
               "Title": "NullRendererException.cs",
               "DocumentMoniker": "C:\\Users\\KuznecovVD\\source\\XYZ_Labirin\\XYZ3labirint\\NullRendererException.cs",
               "RelativeDocumentMoniker": "XYZ3labirint\\NullRendererException.cs",
@@ -220,7 +242,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 14,
               "Title": "Node.cs",
               "DocumentMoniker": "C:\\Users\\KuznecovVD\\source\\XYZ_Labirin\\XYZ3labirint\\Node.cs",
               "RelativeDocumentMoniker": "XYZ3labirint\\Node.cs",
@@ -232,55 +254,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "LevelsMenu.cs",
               "DocumentMoniker": "C:\\Users\\KuznecovVD\\source\\XYZ_Labirin\\XYZ3labirint\\LevelsMenu.cs",
               "RelativeDocumentMoniker": "XYZ3labirint\\LevelsMenu.cs",
               "ToolTip": "C:\\Users\\KuznecovVD\\source\\XYZ_Labirin\\XYZ3labirint\\LevelsMenu.cs",
               "RelativeToolTip": "XYZ3labirint\\LevelsMenu.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T01:21:44.353Z"
+              "WhenOpened": "2024-11-29T01:21:44.353Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 0,
               "Title": "IMoveInput.cs",
               "DocumentMoniker": "C:\\Users\\KuznecovVD\\source\\XYZ_Labirin\\XYZ3labirint\\IMoveInput.cs",
               "RelativeDocumentMoniker": "XYZ3labirint\\IMoveInput.cs",
               "ToolTip": "C:\\Users\\KuznecovVD\\source\\XYZ_Labirin\\XYZ3labirint\\IMoveInput.cs",
               "RelativeToolTip": "XYZ3labirint\\IMoveInput.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T01:21:43.56Z"
+              "WhenOpened": "2024-11-29T01:21:43.56Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MapService.cs",
-              "DocumentMoniker": "C:\\Users\\KuznecovVD\\source\\XYZ_Labirin\\XYZ3labirint\\MapService.cs",
-              "RelativeDocumentMoniker": "XYZ3labirint\\MapService.cs",
-              "ToolTip": "C:\\Users\\KuznecovVD\\source\\XYZ_Labirin\\XYZ3labirint\\MapService.cs",
-              "RelativeToolTip": "XYZ3labirint\\MapService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "LevelModel.cs",
+              "DocumentMoniker": "C:\\Users\\KuznecovVD\\source\\XYZ_Labirin\\XYZ3labirint\\LevelModel.cs",
+              "RelativeDocumentMoniker": "XYZ3labirint\\LevelModel.cs",
+              "ToolTip": "C:\\Users\\KuznecovVD\\source\\XYZ_Labirin\\XYZ3labirint\\LevelModel.cs",
+              "RelativeToolTip": "XYZ3labirint\\LevelModel.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAmwDgAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T01:21:42.674Z"
+              "WhenOpened": "2024-11-29T01:21:42.674Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 7,
               "Title": "ConsoleRenderer.cs",
               "DocumentMoniker": "C:\\Users\\KuznecovVD\\source\\XYZ_Labirin\\XYZ3labirint\\ConsoleRenderer.cs",
               "RelativeDocumentMoniker": "XYZ3labirint\\ConsoleRenderer.cs",
               "ToolTip": "C:\\Users\\KuznecovVD\\source\\XYZ_Labirin\\XYZ3labirint\\ConsoleRenderer.cs",
               "RelativeToolTip": "XYZ3labirint\\ConsoleRenderer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBsAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T01:21:41.621Z"
+              "WhenOpened": "2024-11-29T01:21:41.621Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "ConsoleInput.cs",
               "DocumentMoniker": "C:\\Users\\KuznecovVD\\source\\XYZ_Labirin\\XYZ3labirint\\ConsoleInput.cs",
               "RelativeDocumentMoniker": "XYZ3labirint\\ConsoleInput.cs",
@@ -292,7 +318,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 18,
               "Title": "Vector2.cs",
               "DocumentMoniker": "C:\\Users\\KuznecovVD\\source\\XYZ_Labirin\\XYZ3labirint\\Vector2.cs",
               "RelativeDocumentMoniker": "XYZ3labirint\\Vector2.cs",

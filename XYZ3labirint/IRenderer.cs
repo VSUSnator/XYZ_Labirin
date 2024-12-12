@@ -11,5 +11,7 @@ namespace MazeTemplate
         public void SetCell(int x, int y, string val);
 
         public void Render();
+
+        public void Clear();
     }
 }

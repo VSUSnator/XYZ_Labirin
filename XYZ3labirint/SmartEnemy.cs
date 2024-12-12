@@ -25,6 +25,8 @@
             if (path == null) 
                 return;
 
+            if(path.Count <= 1)
+                return;
             Node nextPosition = path[1];
             TryChangePosition(nextPosition.Position);
 

@@ -41,5 +41,19 @@
         {
             SetPixel(x, y, val[0]);
         }
+
+        public void Clear()
+        {
+            for (int w = 0; w < _width; w++)
+            {
+                for (int h = 0; h < _height; h++)
+                {
+                    _previousPixels[w, h] = ' ';
+                    _pixels[w, h] = ' ';
+                }
+            }
+
+            Console.Clear();
+        }
     }
 }
